@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.642" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.783" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -13,13 +13,12 @@
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
-    <property name="suiteXmlFile" value="testng.xml"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Windows 10"/>
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="F:\Java\JDK8\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire4644153478589446918\surefirebooter7525025068063975191.jar C:\Users\admin\AppData\Local\Temp\surefire4644153478589446918 2021-11-30T15-49-10_220-jvmRun1 surefire7937968678860956478tmp surefire_04829353173327225103tmp"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire6963858153687633713\surefirebooter7756479969590859338.jar C:\Users\admin\AppData\Local\Temp\surefire6963858153687633713 2021-11-30T16-19-52_776-jvmRun1 surefire3803835622317974744tmp surefire_05003844381998860751tmp"/>
     <property name="surefire.test.class.path" value="F:\java\demo-jenkins-test-stage\target\test-classes;F:\java\demo-jenkins-test-stage\target\classes;C:\Users\admin\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\admin\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\admin\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\admin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\admin\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\admin"/>
@@ -32,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire4644153478589446918\surefirebooter7525025068063975191.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire6963858153687633713\surefirebooter7756479969590859338.jar"/>
     <property name="sun.boot.class.path" value="F:\Java\JDK8\jre\lib\resources.jar;F:\Java\JDK8\jre\lib\rt.jar;F:\Java\JDK8\jre\lib\sunrsasign.jar;F:\Java\JDK8\jre\lib\jsse.jar;F:\Java\JDK8\jre\lib\jce.jar;F:\Java\JDK8\jre\lib\charsets.jar;F:\Java\JDK8\jre\lib\jfr.jar;F:\Java\JDK8\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testPrintHelloWorld" classname="MainTest" time="0.015">
+  <testcase name="testPrintHelloWorld" classname="MainTest" time="0.016">
     <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
 in test .hello.
 ]]></system-out>

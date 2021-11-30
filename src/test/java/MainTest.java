@@ -12,6 +12,6 @@ public class MainTest {
     public void testPrintHelloWorld() {
 
         Assert.assertEquals(Main.getHelloWorld(), "Hello World");
-        System.out.println("in test .hello.");
+        System.out.println("in test .hello.===========================================================");
     }
 }
