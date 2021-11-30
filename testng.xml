@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestAll">
+    <test name="run database only">
+        <classes>
+            <class name="MainTest"></class>
+        </classes>
+    </test>
+</suite>
